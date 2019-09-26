@@ -1,0 +1,52 @@
+body {
+  background-color: orange /* This is a comment */
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.empire {
+  /* z-index: 1; */
+  position: relative;
+  top: 60px;
+  left: 300px;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+.jazz {
+  /* z-index: 3; */
+  position: absolute;
+  top: 500px;
+  left: 100px;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.flea{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#mind{
+  background-color: black;
+}
+
+#bass{
+  background-color: red;
+}
+
+.words{
+  position:relative;
+  color:black;
+  top: 400px;
+  left: 60px;
+}
+
+a:hover{
+  font-size: 20;
+  color:blue;
+  text-decoration: underline;
+}

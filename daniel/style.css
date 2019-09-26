@@ -1,0 +1,32 @@
+body {
+  background-color: pink;
+}
+
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.crumb {
+    display: inline-block;
+    color: blue;
+}
+
+.crumb a::after {
+    display: inline-block;
+    color: black;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+.about{
+  text-decoration: none;
+  color: white;
+}
+
+
+/* a:visited{
+  color:white;
+} */
