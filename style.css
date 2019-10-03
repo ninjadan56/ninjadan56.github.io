@@ -5,28 +5,22 @@ body {
 .crumbs ol {
     list-style-type: none;
     padding-left: 0;
+    font-size: 20px;
 }
 
 .crumb {
-    display: inline-block;
-    color: blue;
+  display:flex;
+  background-color: SkyBlue;
+  justify-content: space-around;
+
 }
 
-.crumb a::after {
-    display: inline-block;
-    color: black;
-    content: '>';
-    font-size: 80%;
-    font-weight: bold;
-    padding: 0 3px;
+.crumbs a:hover{
+  font: arial;
+  color:purple;
+  font-size: 30px;
 }
 
-.about{
-  text-decoration: none;
-  color: white;
+.crumb a:visited{
+  color:black;
 }
-
-
-/* a:visited{
-  color:white;
-} */
