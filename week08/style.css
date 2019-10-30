@@ -1,0 +1,26 @@
+body{
+  background-color: #012840;
+  font-family: monospace;
+}
+
+
+.headers{
+  display: flex;
+  font-family: "Lucida Console", monospace;
+  background-color: #ffffcc;
+  color: black;
+  justify-content: center;
+}
+
+.special{
+  background-color: #ffffcc;
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+.reg{
+  font-size: 25px;
+  color: white;
+}
