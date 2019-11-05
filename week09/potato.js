@@ -27,7 +27,7 @@ function clickButton2() {
   theBody.style.backgroundColor = "pink";
 }
 
-const theText = document.querySelector("p"); document.addEventListener('keydown', changeSize => {
+const theText = document.querySelector(".response"); document.addEventListener('keydown', changeSize => {
   if(changeSize.keyCode === 71){
     theText.style.fontSize = "10px";
   }
