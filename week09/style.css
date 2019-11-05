@@ -1,3 +1,7 @@
+*{ /*smooth scroll https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2*/
+  scroll-behavior: smooth;
+}
+
 body{
   background-color: pink;
   color: slategray;
@@ -16,6 +20,11 @@ h3{
   align-items: center;
   justify-content: center;
 
+}
+
+#scroll {
+  text-align: center;
+  text-decoration: none;
 }
 
 #wrapper{
@@ -55,4 +64,17 @@ h3{
   /* padding: none; */
   text-align: center;
   text-decoration: none;
+}
+
+#wrap2{
+  margin-top: 5000px;
+}
+
+#section2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: auto;
+  background-color: pink;
 }
