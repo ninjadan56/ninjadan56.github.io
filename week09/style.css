@@ -1,0 +1,58 @@
+body{
+  background-color: pink;
+  color: slategray;
+  font-family: monospace;
+}
+
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+h3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#button2{
+  padding: 4vh;
+  background-color: green;
+  border-radius: 25px;
+}
+
+#button2:focus{
+  background-color: yellow;
+}
+
+#button1{
+  padding: 4vh;
+  background-color: orange;
+  border-radius: 25px;
+}
+
+#button1:focus{
+  background-color: pink;
+}
+
+.response{
+  text-align: center;
+  text-decoration: inherit;
+  font-size: 25px;
+}
+
+#line{
+  margin: 0px;
+  font-size: 25px;
+  /* padding: none; */
+  text-align: center;
+  text-decoration: none;
+}
