@@ -1,0 +1,88 @@
+body {
+  background-color: #FF00F7 /* This is a comment */
+
+}
+
+h1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+}
+
+h1 a{
+    text-decoration: none;
+    color: black;
+    background-color: #2DE3C3;
+    padding: 10px 16px;
+}
+
+h1 a:hover{
+  background-color: yellow;
+  padding: 5px;
+}
+
+#header{
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+#para{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+div p a{
+  color: #FF00F7;
+  text-decoration: none;
+}
+
+div p a:hover{
+  color: white;
+  font-size: 100px;
+}
+
+ul {
+  /* list-style-type: none; */
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.slider{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+}
+
+.sliders{
+  width: 500px;
+  height: 400px;
+}
+
+#games{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
