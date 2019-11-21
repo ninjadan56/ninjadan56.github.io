@@ -7,15 +7,15 @@ let time = 2000;
 images[0] = 'assets/d1.png';
 images[1] = 'assets/d2.png';
 images[2] = 'assets/d3.png';
-images[3] = 'assets/d4.png';
-images[4] = 'assets/d5.png';
-images[5] = 'assets/d6.png';
-images[6] = 'assets/d7.png';
+images[3] = 'assets/d4.PNG';
+images[4] = 'assets/d5.PNG';
+images[5] = 'assets/d6.PNG';
+images[6] = 'assets/d7.PNG';
 images[7] = 'assets/d8.png';
-images[8] = 'assets/d9.png';
-images[9] = 'assets/d10.png';
+images[8] = 'assets/d9.PNG';
+images[9] = 'assets/d10.PNG';
 images[10] = 'assets/d11.png';
-images[11] = 'assets/d12.png';
+images[11] = 'assets/d12.PNG';
 
 
 function changeImg(){
