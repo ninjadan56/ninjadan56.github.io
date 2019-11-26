@@ -1,0 +1,10 @@
+body {
+  background-color: #FF00F7 /* This is a comment */
+
+}
+
+.wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
