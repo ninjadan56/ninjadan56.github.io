@@ -1,0 +1,109 @@
+.mr-3{
+  height: 200px;
+  width: 400px;
+}
+
+.media{
+  padding: 100px;
+}
+
+#mb-4{
+  /* padding-top: 500px; */
+  /* padding: 200px; */
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.navbar{
+  padding: .8rem !important;
+}
+
+.tuning{
+  width:20%;
+}
+
+#tune{
+  width: 20%;
+}
+
+.about{
+  background-color: #DAF7DC;
+}
+
+.team-section{
+  background-color: #DAF7DC;
+}
+
+.checked {
+  color: orange;
+}
+
+.fa {
+  /*
+  styling for the social media icons
+  */
+  padding: 20px;
+  font-size: 4.5em;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+#welcome:hover{
+  color: #86BBD8;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#try:hover{
+  color: #336699;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+#piano{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+footer{
+  background-color: #3f3f3f;
+  color:#d5d5d5;
+  padding-top: 2rem;
+}
+
+hr.light{
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top:.8rem;
+  margin-bottom: 1rem;
+}
