@@ -2,26 +2,19 @@
   'use strict';
   var AudioContext = window.AudioContext || window.webkitAudioContext || false;
 
-  var BPM = 120;
+  var BPM = 100;
   var TICKS = 16;
-  var soundPrefix = 'https://blog.omgmog.net/beatmaker/sounds/';
+  var soundPrefix = 'sounds/';
   var sounds = [
-    'bass_drum.wav',
-    'snare_drum.wav',
-    'low_tom.wav',
-    'mid_tom.wav',
-    'hi_tom.wav',
-    'rim_shot.wav',
-    'hand_clap.wav',
-    'cowbell.wav',
-    'cymbal.wav',
-    'o_hi_hat.wav',
-    'cl_hi_hat.wav',
-    'low_conga.wav',
-    'mid_conga.wav',
-    'hi_conga.wav',
-    'claves.wav',
-    'maracas.wav'
+    'basstoknockonwood.wav',
+    'clavampmod.wav',
+    'claveq.wav',
+    'hhtorimshot.wav',
+    'hhtosnare.wav',
+    'lightride.wav',
+    'shakerhhpitchshift.wav',
+    'shakershuffleeq.wav',
+    'snaretohh-01.wav',
   ];
   var buffers = {};
   if (AudioContext) {
